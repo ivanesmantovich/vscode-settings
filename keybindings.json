@@ -1,0 +1,88 @@
+[
+  // Project switching with Ctrl-tab / Ctrl-Shift-Tab (browser-style)
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  // Close current split
+  {
+    "key": "cmd+shift+w",
+    "command": "workbench.action.closeEditorsAndGroup"
+  },
+  // Hover
+  {
+    "key": "cmd+h",
+    "command": "editor.action.showHover"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.revealDefinition"
+  },
+  // Expand Selection
+  {
+    "key": "cmd+e",
+    "command": "editor.action.smartSelect.expand"
+  },
+  {
+    "key": "cmd+shift+e",
+    "command": "editor.action.smartSelect.shrink"
+  },
+  // Show Commands
+  {
+    "key": "cmd+shift+a",
+    "command": "workbench.action.showCommands"
+  },
+  // Quick Open
+  {
+    "key": "cmd+q",
+    "command": "workbench.action.quickOpen"
+  },
+  // Open Recent
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.quickOpenPreviousEditor"
+  },
+  // Open Project
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.openRecent"
+  },
+  // To Symbol in Editor
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.gotoSymbol"
+  },
+  // To Symbol in Workspace
+  {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.showAllSymbols"
+  },
+  // Splits
+  {
+    "key": "cmd+m",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "cmd+shift+m",
+    "command": "workbench.action.splitEditorRight"
+  },
+  // Explorer
+  {
+    "key": "cmd+1",
+    "command": "workbench.view.explorer"
+  },
+  // Copilot
+  {
+    "key": "cmd+2",
+    "command": "workbench.panel.chat.view.copilot.focus"
+  },
+  // Jump
+  {
+    "key": "cmd+j",
+    "command": "jump-extension.jump-to-the-start-of-a-word"
+  }
+]

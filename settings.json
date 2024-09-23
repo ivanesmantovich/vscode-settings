@@ -1,0 +1,163 @@
+{
+    // Core
+    "workbench.colorTheme": "Halftone",
+    "workbench.iconTheme": "chalice-icon-theme",
+    "workbench.productIconTheme": "icons-carbon",
+    "editor.fontFamily": "SF Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+
+
+    // Remove the noise
+    "workbench.startupEditor": "none",
+    "editor.cursorBlinking": "solid",
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.stickyScroll.enabled": false,
+    "window.titleBarStyle": "native",
+    "window.customTitleBarVisibility": "never",
+    "editor.overviewRulerBorder": false,
+
+
+    // Tabs
+    "window.nativeTabs": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabActionCloseVisibility": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.editorActionsLocation": "hidden",
+    // Gutter
+    "editor.glyphMargin": false,
+    "editor.showFoldingControls": "never",
+    "editor.lightbulb.enabled": "off",
+    // Nagging
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "telemetry.telemetryLevel": "off",
+    "editor.accessibilitySupport": "off",
+
+
+    // Feature tweaks
+    "files.trimTrailingWhitespace": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.linkedEditing": true, // Buggy, makes red flashes on matching tags (editor.linkedEditingBackground)
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+
+
+    // Visual tweaks
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.sideBar.location": "right",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "editor.scrollbar.horizontalScrollbarSize": 4,
+    "editor.scrollbar.verticalScrollbarSize": 4,
+
+    // Theme overrides
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FF8200",
+        "editor.selectionBackground": "#FF820073",
+        "selection.background": "#FF820073",
+        "editorBracketMatch.background": "#FF820073",
+        "editorBracketMatch.border": "#FF8200",
+
+        "editorLink.activeForeground": "#FF8200",
+
+        // Current Word, Symbol, Range Background
+        "editor.wordHighlightBackground": "#FF820073", // Matching Tag, 70% Alpha
+        "editor.wordHighlightBorder": "#FF8200",
+        "editor.wordHighlightStrongBackground": "#FF820073",
+        "editor.wordHighlightStrongBorder": "#FF8200",
+        "editor.wordHighlightTextBackground": "#FF820073",
+        "editor.wordHighlightTextBorder": "#FF8200",
+        "editor.symbolHighlightBackground": "#FF820073",
+        "editor.symbolHighlightBorder": "#FF8200",
+        "editor.rangeHighlightBackground": "#FF820073",
+        "editor.rangeHighlightBorder": "#FF8200",
+        "editorUnicodeHighlight.background": "#FF820073",
+        "editorUnicodeHighlight.border": "#FF8200",
+        "editor.selectionHighlightBackground": "#FF820073",
+        "editor.selectionHighlightBorder": "#FF8200",
+        "editor.stackFrameHighlightBackground": "#FF820073",
+        "editor.focusedStackFrameHighlightBackground": "#FF820073",
+        "editor.linkedEditingBackground": "#FF820073", // HIGHLIGHTS MATCHING TAG, DEFAULT IS RED
+        "editor.hoverHighlightBackground": "#FF820033", // 20% Alpha
+
+        "editorGroup.border": "#D5D5D5",
+
+        "editorSuggestWidget.border": "#D5D5D5",
+
+        "editorGroupHeader.tabsBackground": "#FAFAFA",
+        "editorGroupHeader.noTabsBackground": "#FAFAFA",
+        "editorGroupHeader.border": "#D5D5D5",
+
+        "tab.border": "#D5D5D5",
+        "tab.inactiveBackground": "#FAFAFA",
+        "tab.inactiveForeground": "#999999",
+        "tab.unfocusedInactiveForeground": "#999999",
+        "tab.activeBorder": "#FFFFFF",
+        "tab.activeBackground": "#FFFFFF",
+        "tab.activeForeground": "#212121",
+        "tab.hoverBackground": "#F2F2F2",
+
+        "widget.border": "#D5D5D5",
+        "widget.shadow": "#0000",
+
+        "sideBar.border": "#D5D5D5",
+        "sideBar.background": "#FAFAFA",
+        "sideBarTitle.background": "#F7F7F7",
+        "sideBarSectionHeader.background": "#F7F7F7",
+        "sideBarSectionHeader.border": "#D5D5D5",
+        "sideBarStickyScroll.background": "#F7F7F7",
+        "sideBarStickyScroll.border": "#D5D5D54D",
+        "sideBarStickyScroll.shadow": "#D5D5D58C",
+        "editorIndentGuide.background1": "#00000003", // Almost invisible non-active indent guides
+    },
+
+
+    // Formatting
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Enable linter fixes on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": "explicit"
+    },
+
+
+    // Extension Settings
+    "jump.display.backgroundColor": "#FF8200",
+    "jump.display.color": "#FFFFFF",
+
+
+    // Git (Fork as a client)
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.statusBar.visible": false,
+}
